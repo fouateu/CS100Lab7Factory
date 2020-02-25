@@ -22,16 +22,16 @@ int main (int argv, char** argc){
   Base* output = f->parse(argc, argv);
 
   if (output == nullptr){
-    cout << "got nulltr!" << endl;
+    cout << "got nullptr!" << endl;
   }
-  for(int i = 1; i < argv; i++) {
-        cout << argc[i] << endl;
-    }
+  // for(int i = 1; i < argv; i++) {
+  //       cout << argc[i] << endl;
+  //   }
 
-
+ else{
  cout << "My string is: " << output->stringify() << endl;
  cout << "My number is: " << output->evaluate() << endl;
-
+}
 
 
 
