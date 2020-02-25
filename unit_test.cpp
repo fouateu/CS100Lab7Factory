@@ -8,10 +8,10 @@
 //#include "div_test.hpp"
 //#include "pow_test.hpp"
 //#include "mix_test.hpp"
-#include "VectorContainer_test.hpp"
-#include "ListContainer_test.hpp"
-#include "SelectionSort_test.hpp"
-#include "BubbleSort_test.hpp"
+//#include "VectorContainer_test.hpp"
+//#include "ListContainer_test.hpp"
+//#include "SelectionSort_test.hpp"
+//#include "BubbleSort_test.hpp"
 //TEST(OpTest, eight){
   // Op* op1 = new Op (8);
   // EXPECT_EQ(op1->stringify, "8");
