@@ -1,4 +1,5 @@
 #include "gtest/gtest.h"
+#include "factory.hpp"
 
 //#include "op_test.hpp"
 //#include "add_test.hpp"
@@ -12,6 +13,7 @@
 //#include "ListContainer_test.hpp"
 //#include "SelectionSort_test.hpp"
 //#include "BubbleSort_test.hpp"
+#include "factory_test.hpp"
 //TEST(OpTest, eight){
   // Op* op1 = new Op (8);
   // EXPECT_EQ(op1->stringify, "8");

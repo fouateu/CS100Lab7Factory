@@ -1,4 +1,4 @@
-#ifndef _Div_HPP_
+#ifndef _DIV_HPP_
 #define _DIV_HPP_
 
 #include "op.hpp"
@@ -9,22 +9,22 @@ class Div : public Base {
 		{
 			lstring = left -> stringify();
 			rstring = right -> stringify();
-			ldouble = left -> evaluate(); 
-			rdouble = right -> evaluate(); 
-		}		
+			ldouble = left -> evaluate();
+			rdouble = right -> evaluate();
+		}
 		virtual double evaluate()
 		{
 			return(ldouble / rdouble);
 		}
 		virtual string stringify()
 		{
-			return (lstring + " / " + rstring); 
-		}			
+			return (lstring + " / " + rstring);
+		}
 	private:
-		string lstring; 
-		string rstring; 
-		double ldouble; 
-		double rdouble; 
+		string lstring;
+		string rstring;
+		double ldouble;
+		double rdouble;
 };
 
 #endif
