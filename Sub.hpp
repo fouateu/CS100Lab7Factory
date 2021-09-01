@@ -5,7 +5,7 @@
 
 using namespace std; 
 
-class Sub : public Base{
+class Sub : public Base{/////////////////////////////////////////////
 	public:
 		Sub( Base* left, Base* right) : Base()////////////////////////////////////////////
 		{
