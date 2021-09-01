@@ -5,7 +5,7 @@
 
 using namespace std; nnnnnnnnnnnnnnnnnnnnnnnnnbvnmbnghgjnhfdjhff
 
-class Sub : public Base{/////////////////////////////////////////////
+class Sub : public Base{/////////////////////////////////////////////jkhkljbln
 	public:
 		Sub( Base* left, Base* right) : Base()////////////////////////////////////////////
 		{
