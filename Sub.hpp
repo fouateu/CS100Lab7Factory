@@ -3,7 +3,7 @@
 
 #include "op.hpp"// morning people. "God bless America"
 
-using namespace std; 
+using namespace std; nnnnnnnnnnnnnnnnnnnnnnnnnbvnmbnghgjnhfdjhff
 
 class Sub : public Base{/////////////////////////////////////////////
 	public:
