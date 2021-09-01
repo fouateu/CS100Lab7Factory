@@ -7,7 +7,7 @@ using namespace std;
 
 class Sub : public Base{
 	public:
-		Sub( Base* left, Base* right) : Base()
+		Sub( Base* left, Base* right) : Base()////////////////////////////////////////////
 		{
 			lstring = left->stringify();
 			rstring = right->stringify();
