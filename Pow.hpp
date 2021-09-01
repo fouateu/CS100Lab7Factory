@@ -5,6 +5,7 @@
 #include "op.hpp"
 using namespace std; 
 class Pow : public Base
+kklhkjbkjzlbcbm,................................
 {
 	public: 
 		Pow( Base* left, Base* right):Base()	
