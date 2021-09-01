@@ -9,7 +9,7 @@ class Sub : public Base{/////////////////////////////////////////////
 	public:
 		Sub( Base* left, Base* right) : Base()////////////////////////////////////////////
 		{
-			lstring = left->stringify();
+			lstring = left->stringify();/klkknnkknln//kjjkbkjb
 			rstring = right->stringify();
 			ldouble = left -> evaluate();
 			rdouble = right -> evaluate();
